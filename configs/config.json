@@ -1,0 +1,15 @@
+{
+  "apiHost":"http://api.wlproxy.net",
+  "links": {
+    "_getBanners":"/api/banner/search?registered={param}",
+    "_getActions":"/api/action/search?action_id={param}",
+    "_getTopMenu":"/api/menu/search?id_project={param}&menu_status={param}",
+    "_getWidgets":"/api/widget?id_project={param}",
+    "_getMarkets":"/api/mobilemarkets/search?pagination={param}",
+    "_getAllNews":"/api/news/search?news_status={param}&pagination={param}",
+    "_getSeoText":"/api/seo/search?seo_id={param}",
+    "_getCountry":"/api/handbook?param={param}",
+    "_getCommand":"/api/handbook?param={param}",
+    "_getStPages":"/api/staticpage/search?alias_static_page={param}"
+  }
+}
